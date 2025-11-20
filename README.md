@@ -25,3 +25,15 @@ https://github.com/user-attachments/assets/59e79b32-9aca-4e3b-aca8-e7f40eef5293
 
 https://github.com/user-attachments/assets/ac90bf2e-4347-4612-a567-225738b7b5dc
 
+4. 底部图标栏的社媒图标也可以点击交互
+
+https://github.com/user-attachments/assets/0117804b-2882-4ade-86a0-512e8b7b7155
+
+5. 然后就可以随意点开剩余图标进行浏览啦！
+<img width="1624" height="984" alt="image" src="https://github.com/user-attachments/assets/439ace9b-fa72-4e86-8e37-e8f3bed727d3" />
+<img width="1624" height="984" alt="image" src="https://github.com/user-attachments/assets/85077dd6-0d0f-4faf-ba04-fccd9bf1be27" />
+<img width="1624" height="984" alt="image" src="https://github.com/user-attachments/assets/d7e681c9-0a3d-4d05-affd-e2efae1220c6" />
+<img width="1624" height="984" alt="image" src="https://github.com/user-attachments/assets/a5304c5c-d173-45b9-ad12-516f7a3cd5e9" />
+<img width="1624" height="984" alt="image" src="https://github.com/user-attachments/assets/a83ff5df-ae76-4a3d-b8a5-e18a694b5800" />
+
+
