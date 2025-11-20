@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JIANG, YOULUN</title>
+  <link rel="stylesheet" href="./style.css" />
+  <script type="module" src="./main.js" defer></script>
+</head>
+
+<body>
+  <div id="view1" class="view active">
+    <img src="./utils/jyl大头像.jpg" alt="我的登陆照片" />
+    <h1>江有仑</h1>
+    <button id="enterBtn">登录</button>
+  </div>
+
+  <div id="view2" class="view">
+    <nav>
+      <a><img src="./utils/recycle-bin.png" alt="测试" />回收站</a>
+      <a><img src="./utils/computer.png" alt="测试" />我的电脑</a>
+      <a><img src="./utils/directory.png" alt="测试" />文件夹</a>
+      <a><img src="./utils/steam.png" alt="测试" />steam</a>
+      <a><img src="./utils/about.PNG" alt="测试" />关于我.txt</a>
+      <a><img src="./utils/book.png" alt="测试" />教育背景.txt</a>
+      <a><img src="./utils/work.png" alt="测试" />工作/项目经历.txt</a>
+      <a><img src="./utils/doctor.png" alt="测试" />个人技能.txt</a>
+      <a><img src="./utils/java.png" alt="测试" />我的名片.txt</a>
+    </nav>
+
+    <div class="draggable-window">
+      <div class="toolbar">
+        回收站
+        <button>X</button>
+      </div>
+      <div class="container">暂时还没有垃圾。。。</div>
+    </div>
+
+    <div class="draggable-window">
+      <div class="toolbar">
+        文件夹
+        <button>X</button>
+      </div>
+      <div class="container">窗口可拖拽</div>
+    </div>
+
+    <div class="draggable-window">
+      <div class="toolbar">
+        我的电脑
+        <button>X</button>
+      </div>
+      <div class="container">点击左下角Start按钮可以返回登录界面</div>
+    </div>
+
+    <div class="draggable-window">
+      <div class="toolbar">
+        Steam
+        <button>X</button>
+      </div>
+      <div class="container">你期待看到什么？</div>
+    </div>
+
+    <div id="about-me" class="draggable-window">
+      <div class="toolbar">
+        关于我
+        <button>X</button>
+      </div>
+      <ul class="container">
+        <li><span>Hi，</span><span>我是</span><span>江有仑，</span><span>一名</span><span>对 Web 技术</span><span>充满热情的</span><span>前端开发学习者</span>，<span>也是</span><span>一名研一学生。</span><span>本科阶段</span><span>曾参与过若干</span><span>前端相关的课程及</span><span>实习项目，</span><span>也有从零构建一些</span><span>小型实验应用。</span></li>
+        <li><span>目前正专注于</span><span>学习现代前端开发的</span><span>完整技术体系，</span><span>包括</span><span>JavaScript/</span><span>TypeScript、</span><span>React、</span><span>Tailwind CSS、</span><span>LESS 等，</span><span>同时对工程化与构建工具</span><span>（Vite / Webpack）、</span><span>状态管理</span><span>（Redux Toolkit / React Query）</span><span>也保持持续探索。</span><span>我希望通过</span><span>系统训练和</span><span>项目实践持续提升自己在</span><span>组件化、</span><span>性能优化、</span><span>工程规范方面的能力。</span></li>
+        <li><span>我喜欢将创意变成可</span><span>交互的界面，</span><span>灵活地给予用户</span><span>独特的交互体验，</span><span>也享受解决问题和</span><span>优化用户体验的过程。</span></li>
+        <li><span>现在正在参加</span><span>字节跳动前端训练营，</span><span>希望在系统化学习的同时，</span><span>通过团队协作和真实项目</span><span>加速自己的成长，</span><span>逐步成为能够独立构建</span><span>完整 Web 应用的开发者！</span></li>
+      </ul>
+    </div>
+
+    <div id="education" class="draggable-window">
+      <div class="toolbar">
+        教育背景
+        <button>X</button>
+      </div>
+      <div class="container"></div>
+    </div>
+
+    <div id="prof-experience" class="draggable-window">
+      <div class="toolbar">
+        专业经验
+        <button>X</button>
+      </div>
+      <div class="container"></div>
+    </div>
+
+    <div id="skills" class="draggable-window">
+      <div class="toolbar">
+        个人技能
+        <button>X</button>
+      </div>
+      <ul class="container"></ul>
+    </div>
+
+    <div id="business-card" class="draggable-window">
+      <div class="toolbar">
+        我的名片
+        <button>X</button>
+      </div>
+      <div class="container">
+        <h1>江有仑</h1>
+        <h2>Jiang, Youlun</h2>
+        <a href="mailto:c.jiangyoulun@outlook.com">c.jiangyoulun@outlook.com</a>
+        <a href="tel:+86 18665331285">186-6533-1285</a>
+      </div>
+    </div>
+  </div>
+  <div class="dock">
+    <button id="logoutBtn" class="start"><img src="./utils/windows-0.png" />Start</button>
+    <a href="https://github.com/catttjyl" target="_blank"><img src="./utils/windows-github.png" alt="github-icon" /></a>
+    <a href="https://www.linkedin.com/in/youlun-jiang/"><img src="./utils/windows-linkedin.png" alt="linkedin-icon" /></a>
+    <a href="mailto:c.jiangyoulun@outlook.com"><img src="./utils/windows-mail.png" alt="mail-icon" /></a>
+  </div>
+  <div class="scroll">
+    <p>© 2025 Youlun 的个人网站</p>
+  </div>
+</body>
+
+</html>
