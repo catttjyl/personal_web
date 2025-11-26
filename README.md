@@ -1,5 +1,5 @@
 # 江有仑的个人网站（非专业版！）
-[点击体验](jiangyoulun.netlify.app)
+[点击体验](https://jiangyoulun.netlify.app/)
 ## <img src="./utils/windows-0.png"/>本次尝试的主题是2000s的windows风格
 本项目为纯前端单页面应用，未使用任何框架或打包工具。<br/> 整体功能仅通过 原生 HTML + CSS + JavaScript 实现，包括：
 * **页面结构**：使用语义化 HTML 构建单页面的基础 DOM 结构
